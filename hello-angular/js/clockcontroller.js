@@ -1,7 +1,9 @@
 function ClockController($scope){
-  $scope.clocktime = new Date();
+  $scope.clock = {
+    time: new Date()
+  };
   var refreshClock = function(){
-    $scope.clocktime = new Date();
+    $scope.clock.time = new Date();
   };
   setInterval(function(){
     $scope.$apply(refreshClock); 
