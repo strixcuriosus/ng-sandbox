@@ -1,4 +1,4 @@
 ng-sandbox
 ==========
 
-Playing Around with Angular
+A Test Repo for Playing Around with Angular
